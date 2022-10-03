@@ -4,6 +4,7 @@ Arduino Keyboard Controller.
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot1.jpg"/>
 
 ## Erster Start
+
 1. Starte MatrixKeypad.exe: Es wird eine Aktualisierung durchgeführt und die die aktuelle Version der Arduino IDE, wie alle zusätzlichen Komponenten heruntergeladen und danach automatisch entzipt.
 
 (Achtung: Das herunterladen und autimatische Einrichten kann ca. 15 Minuten dauern!)
@@ -12,12 +13,13 @@ Arduino Keyboard Controller.
 
 **Menü**
 - Umgebung: Hier kann auf den Speicherort gesprungen werden, an dem alle Daten für MatricKeypad.exe abgelegt wurden.
-<pre>C:\Users\<username>\AppData\Roaming\_MC\MatrixKeypad</pre>
+<pre>"C:\Users\<username>\AppData\Roaming\_MC\MatrixKeypad"</pre>
 - Arduino Sketch: Das dazugehörige Arduino Sketch erneut über die Arduino IDE aufrufen. Es wird bei der Installation in der Umgebung mit abgelegt.
 - Fenster schließe: (oder [x]) kann das Einstellen-Dialog minimiert werden. Mit dem festgelegten Tastenkürzel (Standard:`STRG+y`), kann das Einstellen-Dialog wieder aufgerufen werden.
 - Programm beenden: Beendet das Programm
 
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot3.jpg"/>
+
 
 ### Festlegen der Funktionstasten
 
