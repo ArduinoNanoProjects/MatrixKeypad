@@ -1,7 +1,8 @@
-# Matrix Keypad
+# MatrixKeypad
 Arduino Keyboard Controller.
 
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot1.jpg"/>
+
 
 ## Erster Start
 
@@ -34,3 +35,15 @@ Arduino Keyboard Controller.
 - **SCRIPT:** Ein über den Pfad zu einem AU3-Script wird direkt ausgeführt.
 - **WINDOWS:** Startet Windows eigene CPL-Programme. (z.B.: Programme löschen mit Appwiz.cpl)
 - **ZIP:** Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter `"Umgebung > Zip-Ordner öffnen"` direkt aufgerufen werden.
+
+## Arduino Script
+
+1. Arduino an den Rechner anschließen
+2. Auswahl der Libraries und downloaden:
+- https://github.com/arduino-libraries/Keyboard/blob/master/src/Keyboard.h
+- https://playground.arduino.cc/Code/Keypad/
+3. In diesem Beispiel wird ein Arduino Micro (ATmega32U4) aks Tastatursimulation verwendet.
+Dieser muss unter Werkzeuge mit dem Port ausgewählt werden.
+4. Das Keypad 4x4 wird über GND und an den Pins 2 bis 9 angeschlossen:
+<img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot5.jpg"/>
+
