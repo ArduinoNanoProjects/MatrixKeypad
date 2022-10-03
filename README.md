@@ -4,19 +4,19 @@ Arduino Keyboard Controller.
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot1.jpg"/>
 
 
-## Erster Start
+## Erster Start der MatrixKeypad.exe
 
 1. Starte MatrixKeypad.exe: Es wird eine Aktualisierung durchgeführt und die die aktuelle Version der Arduino IDE, wie alle zusätzlichen Komponenten heruntergeladen und danach automatisch entzipt.
 
 (Achtung: Das herunterladen und autimatische Einrichten kann ca. 15 Minuten dauern!)
 
-2. MatrixKeypad ist gestartet: Du kannst die Einstellungen über das Tastenbefehl `STRG+y` aufrufen. 
+2. MatrixKeypad und das Arduino Sketch werden danach automatisch gestartet: Du kannst den Einstellungen-Dialog von MatrixKeypad mit [x] schließe und über den Tastenbefehl `STRG+y` weider aufrufen. 
 
 **Menü**
 - Umgebung: Hier kann auf den Speicherort gesprungen werden, an dem alle Daten für MatricKeypad.exe abgelegt wurden.
 <pre>"C:\Users\&lt;username&gt;\AppData\Roaming\_MC\MatrixKeypad"</pre>
 - Arduino Sketch: Das dazugehörige Arduino Sketch erneut über die Arduino IDE aufrufen. Es wird bei der Installation in der Umgebung mit abgelegt.
-- Fenster schließe: (oder [x]) kann das Einstellen-Dialog minimiert werden. Mit dem festgelegten Tastenkürzel (Standard:`STRG+y`), kann das Einstellen-Dialog wieder aufgerufen werden.
+- Fenster schließe: kann das Einstellen-Dialog minimiert werden. Mit dem festgelegten Tastenkürzel (Standard:`STRG+y`), kann das Einstellen-Dialog wieder aufgerufen werden.
 - Programm beenden: Beendet das Programm
 
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot3.jpg"/>
@@ -25,6 +25,7 @@ Arduino Keyboard Controller.
 ## Festlegen der Funktionstasten
 
 Über die Funktionstasten A bis D lassen sich 12 Funktionstasten von 0 bis 9 und die roten Tasten + und # mit einzelnen Ausführungen belegen.
+<img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot4.jpg"/>
 
 - **PROGRAM:** Starte ein ausgewähltes Programm. Nach der Auswahl kann über betätigen des Buttons ein Auswahl-Dialog gestartet werden oder der die Pfadangabe im Eingabefeld direkt vergeben werden.
 - **EXPLORER:** Öffne einen beliebigen Ordner per Pfadangabe.
