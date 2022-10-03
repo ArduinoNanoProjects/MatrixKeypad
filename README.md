@@ -1,2 +1,3 @@
-# KeypadMatrix
- Easy Programm opener
+# Matrix Keypad
+Arduino Keyboard Controller.
+
