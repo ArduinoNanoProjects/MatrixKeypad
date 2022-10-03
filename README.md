@@ -39,7 +39,7 @@ Arduino Keyboard Controller.
 - **ZIP:** Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter `"Umgebung > Zip-Ordner öffnen"` direkt aufgerufen werden.
 
 
-### MagicWords
+## MagicWords
 
 MWs sind besondere Wörter die Du in Textdateien oder auch für die Funktionen nutzen kannst:
 
