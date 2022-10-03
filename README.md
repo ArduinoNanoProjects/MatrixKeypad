@@ -19,16 +19,16 @@ Arduino Keyboard Controller.
 
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot3.jpg"/>
 
-**Festlegen der Funktionstasten**
+### Festlegen der Funktionstasten
 
 Über die Funktionstasten A bis D lassen sich 12 Funktionstasten von 0 bis 9 und die roten Tasten + und # mit einzelnen Ausführungen belegen.
 
-- PROGRAM: Starte ein ausgewähltes Programm. Nach der Auswahl kann über betätigen des Buttons ein Auswahl-Dialog gestartet werden oder der die Pfadangabe im Eingabefeld direkt vergeben werden.
-- EXPLORER: Öffne einen beliebigen Ordner per Pfadangabe.
-- SENDCONTENT: Liest den Inhalt einer Text-Datei aus und gibt den Inhalt aus. (z.B.: als Vorlage)
-- SENDSTRING: Gibt den Inhalt des Eingabefeldes aus. / Es kann auch als Tastenkombination eingetragen werden, die nach auslösen ausgeführt werden soll.
-- COPYCONTENT: Liest den Inhalt einer Text-Datei in die Zwischenablage ein und gibt ihn danach aus.
-- COPYPAST: Liest den Inhalt einer Text-Datei aus und legt ihn in die Zwischenablage. (Mit STRG+C kann der Inhalt ausgegeben werden.)
-- SCRIPT: Ein über den Pfad zu einem AU3-Script wird direkt ausgeführt.
-- WINDOWS: Startet Windows eigene CPL-Programme. (z.B.: Programme löschen mit Appwiz.cpl)
-- ZIP: Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter `"Umgebung > Zip-Ordner öffnen"` direkt aufgerufen werden.
+- **PROGRAM:** Starte ein ausgewähltes Programm. Nach der Auswahl kann über betätigen des Buttons ein Auswahl-Dialog gestartet werden oder der die Pfadangabe im Eingabefeld direkt vergeben werden.
+- **EXPLORER:** Öffne einen beliebigen Ordner per Pfadangabe.
+- **SENDCONTENT:** Liest den Inhalt einer Text-Datei aus und gibt den Inhalt aus. (z.B.: als Vorlage)
+- **SENDSTRING:** Gibt den Inhalt des Eingabefeldes aus. / Es kann auch als Tastenkombination eingetragen werden, die nach auslösen ausgeführt werden soll.
+- **COPYCONTENT:** Liest den Inhalt einer Text-Datei in die Zwischenablage ein und gibt ihn danach aus.
+- **COPYPAST:** Liest den Inhalt einer Text-Datei aus und legt ihn in die Zwischenablage. (Mit STRG+C kann der Inhalt ausgegeben werden.)
+- **SCRIPT:** Ein über den Pfad zu einem AU3-Script wird direkt ausgeführt.
+- **WINDOWS:** Startet Windows eigene CPL-Programme. (z.B.: Programme löschen mit Appwiz.cpl)
+- **ZIP:** Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter `"Umgebung > Zip-Ordner öffnen"` direkt aufgerufen werden.
