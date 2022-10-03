@@ -99,7 +99,7 @@ MWs sind besondere Wörter die Du in Textdateien oder auch für die Funktionen n
 Dieser muss unter Werkzeuge mit dem Port ausgewählt werden.
 4. Das Keypad 4x4 wird über GND und an den Pins 2 bis 9 angeschlossen:
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot5.jpg"/>
-5. Scetch kompilieren, prüfen und auf den Arduino hochladen
+5. Sketch kompilieren, prüfen und auf den Arduino hochladen
 6. Die Funktion kann über den Seriellen Monitor durch drücken einer Taste geprüft werden.
 
 ## 3D-Druck & Gehäuse
