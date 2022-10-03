@@ -46,4 +46,14 @@ Arduino Keyboard Controller.
 Dieser muss unter Werkzeuge mit dem Port ausgewählt werden.
 4. Das Keypad 4x4 wird über GND und an den Pins 2 bis 9 angeschlossen:
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot5.jpg"/>
+5. Scetch kompilieren, prüfen und auf den Arduino hochladen
+6. Die Funktion kann über den Seriellen Monitor durch drücken einer Taste geprüft werden.
 
+## 3D-Druck & Gehäuse
+
+1. Der einfach Demodruck kann über <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/3dPrint/MatrixKeypad.stl">MatrixKeypad.stl</a> bezogen werden.
+<img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot6.jpg"/>
+2. Je nach Drucker und Filament muss das Objekt im Slicer erstellt werden.
+3. Den 3D-Printer konfigurieren und drucken  
+4. Zusammenbauen, fertig.
+<img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot2.jpg"/>
