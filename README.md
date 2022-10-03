@@ -38,6 +38,7 @@ Arduino Keyboard Controller.
 - **WINDOWS:** Startet Windows eigene CPL-Programme. (z.B.: Programme löschen mit Appwiz.cpl)
 - **ZIP:** Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter `"Umgebung > Zip-Ordner öffnen"` direkt aufgerufen werden.
 
+
 ### MagicWords
 
 MWs sind besondere Wörter die Du in Textdateien oder auch für die Funktionen nutzen kannst:
@@ -89,6 +90,7 @@ MWs sind besondere Wörter die Du in Textdateien oder auch für die Funktionen n
 {@UserProfileDir} -> `C:\Users\Nutzername` <br>
 {@WindowsDir} -> `C:\WINDOWS` 
 
+
 ## Arduino Script
 
 1. Arduino an den Rechner anschließen
@@ -102,6 +104,7 @@ Dieser muss unter Werkzeuge mit dem Port ausgewählt werden.
 5. Sketch kompilieren, prüfen und auf den Arduino hochladen
 6. Die Funktion kann über den Seriellen Monitor durch drücken einer Taste geprüft werden.
 
+
 ## 3D-Druck & Gehäuse
 
 1. Der einfach Demodruck kann über <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/3dPrint/MatrixKeypad.stl">MatrixKeypad.stl</a> bezogen werden.
@@ -110,6 +113,7 @@ Dieser muss unter Werkzeuge mit dem Port ausgewählt werden.
 3. Den 3D-Printer konfigurieren und drucken  
 4. Zusammenbauen, fertig.
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot2.jpg"/>
+
 
 ### License
 
