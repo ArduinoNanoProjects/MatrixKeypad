@@ -13,7 +13,7 @@ Arduino Keyboard Controller.
 
 **Menü**
 - Umgebung: Hier kann auf den Speicherort gesprungen werden, an dem alle Daten für MatricKeypad.exe abgelegt wurden.
-<pre>"C:\Users\<username>\AppData\Roaming\_MC\MatrixKeypad"</pre>
+<pre>"C:\Users\&lt;username&gt;\AppData\Roaming\_MC\MatrixKeypad"</pre>
 - Arduino Sketch: Das dazugehörige Arduino Sketch erneut über die Arduino IDE aufrufen. Es wird bei der Installation in der Umgebung mit abgelegt.
 - Fenster schließe: (oder [x]) kann das Einstellen-Dialog minimiert werden. Mit dem festgelegten Tastenkürzel (Standard:`STRG+y`), kann das Einstellen-Dialog wieder aufgerufen werden.
 - Programm beenden: Beendet das Programm
@@ -21,7 +21,7 @@ Arduino Keyboard Controller.
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot3.jpg"/>
 
 
-### Festlegen der Funktionstasten
+## Festlegen der Funktionstasten
 
 Über die Funktionstasten A bis D lassen sich 12 Funktionstasten von 0 bis 9 und die roten Tasten + und # mit einzelnen Ausführungen belegen.
 
