@@ -8,13 +8,13 @@ Arduino Keyboard Controller.
 
 (Achtung: Das herunterladen und autimatische Einrichten kann ca. 15 Minuten dauern!)
 
-2. MatrixKeypad ist gestartet: Du kannst die Einstellungen über das Tastenbefehl <pre>STRG+y</pre> aufrufen. 
+2. MatrixKeypad ist gestartet: Du kannst die Einstellungen über das Tastenbefehl `STRG+y` aufrufen. 
 
 **Menü**
 - Umgebung: Hier kann auf den Speicherort gesprungen werden, an dem alle Daten für MatricKeypad.exe abgelegt wurden.
 <pre>C:\Users\<username>\AppData\Roaming\_MC\MatrixKeypad</pre>
 - Arduino Sketch: Das dazugehörige Arduino Sketch erneut über die Arduino IDE aufrufen. Es wird bei der Installation in der Umgebung mit abgelegt.
-- Fenster schließe: (oder [x]) kann das Einstellen-Dialog minimiert werden. Mit dem festgelegten Tastenkürzel (Standard: <pre>STRG+y</pre>), kann das Einstellen-Dialog wieder aufgerufen werden.
+- Fenster schließe: (oder [x]) kann das Einstellen-Dialog minimiert werden. Mit dem festgelegten Tastenkürzel (Standard:`STRG+y`), kann das Einstellen-Dialog wieder aufgerufen werden.
 - Programm beenden: Beendet das Programm
 
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot3.jpg"/>
@@ -31,4 +31,4 @@ Arduino Keyboard Controller.
 - COPYPAST: Liest den Inhalt einer Text-Datei aus und legt ihn in die Zwischenablage. (Mit STRG+C kann der Inhalt ausgegeben werden.)
 - SCRIPT: Ein über den Pfad zu einem AU3-Script wird direkt ausgeführt.
 - WINDOWS: Startet Windows eigene CPL-Programme. (z.B.: Programme löschen mit Appwiz.cpl)
-- ZIP: Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter <pre>"Umgebung > Zip-Ordner öffnen"</pre> direkt aufgerufen werden.
+- ZIP: Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter `"Umgebung > Zip-Ordner öffnen"` direkt aufgerufen werden.
