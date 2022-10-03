@@ -6,7 +6,7 @@ Arduino Keyboard Controller.
 
 ## Erster Start der MatrixKeypad.exe
 
-1. Starte MatrixKeypad.exe: Es wird eine Aktualisierung durchgeführt und die die aktuelle Version der Arduino IDE, wie alle zusätzlichen Komponenten heruntergeladen und danach automatisch entzipt.
+1. Starte MatrixKeypad.exe: Es wird eine Installation durchgeführt und die aktuelle Version der Arduino IDE, wie alle zusätzlichen Komponenten heruntergeladen, installiert und entzipt.
 
 (Achtung: Das herunterladen und autimatische Einrichten kann ca. 15 Minuten dauern!)
 
@@ -41,7 +41,7 @@ Arduino Keyboard Controller.
 
 ## MagicWords
 
-MWs sind besondere Wörter die Du in Textdateien oder auch für die Funktionen nutzen kannst:
+MWs sind besondere Wörter die Du in Textdateien oder auch für die Funktionen nutzen kannst. Sie werden je nach Funktionalität in der Ausgabe ersetzt. Sie können unter anderm für Funktionen wie SENDCONTENT, SENDSTRING, COPYCONTENT oder COPYPAST verwendet werden:
 
 {HEUTE} -> `03.10.2022` <br>
 {JAHR} -> `2022` <br>
