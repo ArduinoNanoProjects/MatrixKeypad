@@ -38,6 +38,58 @@ Arduino Keyboard Controller.
 - **WINDOWS:** Startet Windows eigene CPL-Programme. (z.B.: Programme löschen mit Appwiz.cpl)
 - **ZIP:** Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter `"Umgebung > Zip-Ordner öffnen"` direkt aufgerufen werden.
 
+#### MagicWords
+
+MWs sind besondere Wörter die Du in Textdateien oder auch für die Funktionen nutzen kannst:
+
+{HEUTE} -> `03.10.2022`
+{JAHR} -> `2022`
+{MONAT} -> `10`
+{TAG} -> `03`
+{ZEIT} -> `17:01:10`
+{STUNDE} -> `17`
+{MINUTE} -> `01`
+{SEKUNDEN} -> `10`
+{@ScriptDir} -> `D:\Sicherungen\_Github\KeypadMatrix\KeypadMatrix`
+{@AppDataDir} -> `C:\Users\Nutzername\AppData\Roaming`
+{@ComputerName} -> `COMPUTERNAME`
+{@DesktopCommonDir} -> `C:\Users\Public\Desktop`
+{@DesktopDepth} -> `32`
+{@DesktopDir} -> `C:\Users\Nutzermane\Desktop`
+{@DesktopHeight} -> `1080`
+{@DesktopWidth} -> `1920`
+{@DesktopRefresh} -> `59`
+{@DocumentsCommonDir} -> `C:\Users\Public\Documents`
+{@FavoritesCommonDir} -> `C:\Users\Nutzername\Favorites`
+{@FavoritesDir} -> `C:\Users\Nutzername\Favorites`
+{@HomeDrive} -> `C:`
+{@HomePath} -> `\Users\Nutzername`
+{@IPAddress1} -> `192.168.000.001`
+{@KBLayout} -> `00000207` 
+{@LocalAppDataDir} -> `C:\Users\Nutzername\AppData\Local`
+{@LogonDNSDomain} -> `C:\Users\Nutzername\AppData\Local`
+{@LogonDomain} -> `COMPUTERNAME`
+{@LogonServer} -> `\\COMPUTERNAME`
+{@MyDocumentsDir} -> `C:\Users\Nutzername\Documents`
+{@OSArch} -> `X64`
+{@OSBuild} -> `19044`
+{@OSLang} -> `0407`
+{@OSServicePack} -> `WIN32_NT`
+{@OSType} -> `WIN_10`
+{@OSVersion} -> `C:\Program Files`
+{@ProgramFilesDir} -> `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`
+{@ProgramsCommonDir} -> `C:\Users\Nutzername\AppData\Roaming\Microsoft\Windows\Start Menu\Programs`
+{@ProgramsDir} -> `D:\Sicherungen\_Github\KeypadMatrix\KeypadMatrix\MatrixKeypad.exe`
+{@ScriptFullPath} -> `C:\ProgramData\Microsoft\Windows\Start Menu`
+{@StartMenuDir} -> `C:\Users\Nutzername\AppData\Roaming\Microsoft\Windows\Start Menu`
+{@StartupCommonDir} -> `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup`
+{@SystemDir} -> `C:\WINDOWS\system32`
+{@TempDir} -> `C:\Users\Nutzername\AppData\Local\Temp`
+{@UserName} -> `Nutzername`
+{@UserProfileDir} -> `C:\Users\Nutzername`
+{@WindowsDir} -> `C:\WINDOWS`
+
+
 ## Arduino Script
 
 1. Arduino an den Rechner anschließen
