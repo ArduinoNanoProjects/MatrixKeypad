@@ -1,3 +1,34 @@
 # Matrix Keypad
 Arduino Keyboard Controller.
 
+<img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot1.jpg"/>
+
+## Erster Start
+1. Starte MatrixKeypad.exe: Es wird eine Aktualisierung durchgeführt und die die aktuelle Version der Arduino IDE, wie alle zusätzlichen Komponenten heruntergeladen und danach automatisch entzipt.
+
+(Achtung: Das herunterladen und autimatische Einrichten kann ca. 15 Minuten dauern!)
+
+2. MatrixKeypad ist gestartet: Du kannst die Einstellungen über das Tastenbefehl <pre>STRG+y</pre> aufrufen. 
+
+**Menü**
+- Umgebung: Hier kann auf den Speicherort gesprungen werden, an dem alle Daten für MatricKeypad.exe abgelegt wurden.
+<pre>C:\Users\<username>\AppData\Roaming\_MC\MatrixKeypad</pre>
+- Arduino Sketch: Das dazugehörige Arduino Sketch erneut über die Arduino IDE aufrufen. Es wird bei der Installation in der Umgebung mit abgelegt.
+- Fenster schließe: (oder [x]) kann das Einstellen-Dialog minimiert werden. Mit dem festgelegten Tastenkürzel (Standard: <pre>STRG+y</pre>), kann das Einstellen-Dialog wieder aufgerufen werden.
+- Programm beenden: Beendet das Programm
+
+<img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot3.jpg"/>
+
+**Festlegen der Funktionstasten**
+
+Über die Funktionstasten A bis D lassen sich 12 Funktionstasten von 0 bis 9 und die roten Tasten + und # mit einzelnen Ausführungen belegen.
+
+- PROGRAM: Starte ein ausgewähltes Programm. Nach der Auswahl kann über betätigen des Buttons ein Auswahl-Dialog gestartet werden oder der die Pfadangabe im Eingabefeld direkt vergeben werden.
+- EXPLORER: Öffne einen beliebigen Ordner per Pfadangabe.
+- SENDCONTENT: Liest den Inhalt einer Text-Datei aus und gibt den Inhalt aus. (z.B.: als Vorlage)
+- SENDSTRING: Gibt den Inhalt des Eingabefeldes aus. / Es kann auch als Tastenkombination eingetragen werden, die nach auslösen ausgeführt werden soll.
+- COPYCONTENT: Liest den Inhalt einer Text-Datei in die Zwischenablage ein und gibt ihn danach aus.
+- COPYPAST: Liest den Inhalt einer Text-Datei aus und legt ihn in die Zwischenablage. (Mit STRG+C kann der Inhalt ausgegeben werden.)
+- SCRIPT: Ein über den Pfad zu einem AU3-Script wird direkt ausgeführt.
+- WINDOWS: Startet Windows eigene CPL-Programme. (z.B.: Programme löschen mit Appwiz.cpl)
+- ZIP: Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter <pre>"Umgebung > Zip-Ordner öffnen"</pre> direkt aufgerufen werden.
