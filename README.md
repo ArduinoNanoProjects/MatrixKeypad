@@ -57,3 +57,10 @@ Dieser muss unter Werkzeuge mit dem Port ausgewählt werden.
 3. Den 3D-Printer konfigurieren und drucken  
 4. Zusammenbauen, fertig.
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot2.jpg"/>
+
+### License
+
+CC BY-NC-SA
+https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de
+
+Copyright 2022 by Michael McCouman Jr.
