@@ -62,7 +62,7 @@ Arduino Keyboard Controller.
 
 MWs sind besondere Wörter die Du in Textdateien oder auch für die Funktionen nutzen kannst. Sie werden je nach Funktionalität in der Ausgabe ersetzt. Sie können unter anderm für Funktionen wie SENDCONTENT, SENDSTRING, COPYCONTENT oder COPYPAST verwendet werden:
 
-Siehe <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/demo-macro.md#magicwords">Doku</a>
+Siehe <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/help.md#magicwords">Doku</a>
 
 
 ## Arduino Script

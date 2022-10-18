@@ -1,3 +1,9 @@
+## Mausklicks:
+<pre>
+&lsaquo; = links
+&rsaquo; = rechts
+</pre>
+
 ## Schlüsseltasten gleichzeitig gedrückt:
 Beispiel: `^n =  Strg + N`
 <pre>
