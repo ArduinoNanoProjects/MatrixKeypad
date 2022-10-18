@@ -8,7 +8,7 @@ Arduino Keyboard Controller.
 
 1. Starte MatrixKeypad.exe: Es wird eine Installation durchgeführt und die aktuelle Version der Arduino IDE, wie alle zusätzlichen Komponenten heruntergeladen, installiert und entzipt.
 
-(Achtung: Das herunterladen und autimatische Einrichten kann ca. 15 Minuten dauern!)
+(Achtung: Das Herunterladen und automatische Einrichten kann ca. 15 Minuten dauern!)
 
 2. MatrixKeypad und das Arduino Sketch werden danach automatisch gestartet: Du kannst den Einstellungen-Dialog von MatrixKeypad mit [x] schließe und über den Tastenbefehl `STRG+y` weider aufrufen. 
 
