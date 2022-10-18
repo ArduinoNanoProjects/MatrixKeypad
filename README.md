@@ -30,7 +30,7 @@ Arduino Keyboard Controller.
 
 ### Kanäle
 
-&#9733; - SHIFT+STRG+WIN+ALT+F11 <br>
+&lowast; - SHIFT+STRG+WIN+ALT+F11 <br>
 0 - SHIFT+STRG+WIN+ALT+F10<br>
 1 - SHIFT+STRG+WIN+ALT+F1<br>
 2 - SHIFT+STRG+WIN+ALT+F2<br>
