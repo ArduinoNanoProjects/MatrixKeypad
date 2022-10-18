@@ -31,7 +31,7 @@ Arduino Keyboard Controller.
 
 ### Sendekanäle
 
-Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D werden die Funktionen zur Verwendung der Ziffertasten 0-9 und &#9839;, &lowast; gewechselt. Die Sendekanäle sind werden vom Arduino genutzt und an das Programm gesendet. Diese entfängt die Tastenkobinationen und führt das jeweilige Programm aus.
+Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D werden die Funktionen zur Verwendung der Ziffertasten 0-9 und &#9839;, &lowast; gewechselt. Die Sendekanäle werden vom Arduino genutzt und an das Programm gesendet. Diese entfängt die Tastenkobinationen und führt das jeweilige Programm aus.
 
 #### Kanäle der Programmtasten:
 A - `SHIFT+STRG+ALT+a`<br>
