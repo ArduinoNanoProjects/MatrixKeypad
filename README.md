@@ -59,7 +59,7 @@ D - `SHIFT+STRG+ALT+d`<br>
 
 - **PROGRAM:** Starte ein ausgewähltes Programm. Nach der Auswahl kann über betätigen des Buttons ein Auswahl-Dialog gestartet werden oder der die Pfadangabe im Eingabefeld direkt vergeben werden.
 - **EXPLORER:** Öffne einen beliebigen Ordner per Pfadangabe.
-- **MACRO:** Liest die Tastenkombinationen aus einer Text-Datei aus und sendet diese an den PC. Diese Funktion nutzt auch MagicWords. Siehe <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/demo-macro.txt">Beispieldemo</a> (; = 2500ms | , = 1500ms | . = 500ms | < rechte Maustaste klicken | > rechte Maustaste klicken)
+- **MACRO:** Liest die Tastenkombinationen aus einer Text-Datei aus und sendet diese an den PC. Diese Funktion nutzt auch MagicWords. Siehe <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/help.md#magicwords">Übersicht in der Dokumentation</a>.
 - **SENDSTRING:** Gibt den Inhalt des Eingabefeldes aus. / Es kann auch als Tastenkombination eingetragen werden, die nach auslösen ausgeführt werden soll.
 - **SENDKEY:** Gibt den Inhalt des Eingabefeldes aus. / Es kann auch als Tastenkombination eingetragen werden, die nach auslösen ausgeführt werden soll.
 - **COPYCONTENT:** Liest den Inhalt einer Text-Datei in die Zwischenablage ein und gibt ihn danach aus.
