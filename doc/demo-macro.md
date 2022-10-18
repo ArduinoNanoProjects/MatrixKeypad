@@ -1,4 +1,5 @@
-## Tastenkombination:
+## Schlüsseltasten gleichzeitig gedrückt:
+Beispiel: `^n =  Strg + N`
 <pre>
 ^ = Strg
 ! = Alt
@@ -6,43 +7,42 @@
 # = Windows Taste
 </pre>
 
-Bsp.:
-`^n =  Strg + N`
-
-## Wartezeiten:
-<pre>
-; = 2500ms
-, = 1500ms
-. = 500ms
-</pre>
-
-## Beispieltastaturen:
+## Tastenkombinationen einfelnd gedrückt:
 <pre>
 {SPACE} = SPACE (Leertaste)
 {ENTER} = Eingabetaste auf der Haupttastatur
 {ALT} = ALT
+
 {BACKSPACE} oder {BS} = BACKSPACE (Rücktaste)
 {DELETE} oder {DEL} = DELETE Entfernen (Entf)
+
 {UP} = Nach-Oben-Taste
 {DOWN} = Nach-Unten-Taste
 {LEFT} = Nach-Links-Taste
 {RIGHT} = Nach-Rechts-Taste
+
 {HOME} = HOME (Pos1 – Taste)
 {END} = END (Ende - Taste)
 {ESCAPE} oder {ESC} = ESCAPE- Taste
 {INSERT} oder {INS} = INS (EINFÜGEN (Einfg)-Taste)
+
 {PGUP} = PageUp (Bild-Auf-Taste)
 {PGDN} = PageDown (Bild-Ab-Taste)
+
 {F1} - {F12} = Funktionstasten
+
 {TAB} = TAB (Tabulator – Taste)
 {PRINTSCREEN} = Druck-Taste
+
 {LWIN} = linke Windows Taste
 {RWIN} = rechte Windows Taste
+
 {NUMLOCK on} = NUMLOCK (Num)-Taste (on/off/toggle)
 {CAPSLOCK off} = CAPSLOCK-Taste (FESTSTELLTASTE) (on/off/toggle)
 {SCROLLLOCK toggle} = ROLLEN-Taste (on/off/toggle)
 {BREAK} = STRG+Break = STRG+UNTERBRECHUNG Taste
 {PAUSE} = PAUSE-Taste
+
 {NUMPAD0} - {NUMPAD9} = Ziffernblock 0-9 (Numpad = numerisches Tastenfeld)
 {NUMPADMULT} = Multiplizieren auf Numpad
 {NUMPADADD} = Addieren auf Numpad
@@ -50,7 +50,9 @@ Bsp.:
 {NUMPADDIV} = Dividieren auf Numpad
 {NUMPADDOT} = Punkt (Komma) auf Numpad
 {NUMPADENTER} = Eingabe-Taste auf Numpad
+
 {APPSKEY} = Windows-Programm Taste
+
 {LALT} = Linke ALT-Taste
 {RALT} = Rechte ALT-Taste
 {LCTRL} = Linke STRG-Taste
@@ -63,7 +65,9 @@ Bsp.:
 {CTRLDOWN} = Hält die STRG-Taste gedrückt, bis {CTRLUP} gesendet wird
 {LWINDOWN} = Hält die linke Windows-Taste gedrückt, bis {LWINUP} gesendet wird
 {RWINDOWN} = Hält die rechte Windows-Taste gedrückt, bis {RWINUP} gesendet wird
+
 {ASC nnnn} = Sendet die ALT+nnnn ASCII-CODE-Tastenkombination
+
 {BROWSER_BACK} = Wählt den Browser-Button "Zurück"
 {BROWSER_FORWARD} = Wählt den Browser-Button "Vorwärts"
 {BROWSER_REFRESH} = Wählt den Browser-Button "Aktualisieren"
@@ -82,6 +86,13 @@ Bsp.:
 {LAUNCH_MEDIA} = Startet den Media Player
 {LAUNCH_APP1} = Startet das Anwender-Programm 1
 {LAUNCH_APP2} = Startet das Anwender-Programm 2
+</pre>
+
+## Wartezeiten / Timer: Sleep()
+<pre>
+; = 2500ms
+, = 1500ms
+. = 500ms
 </pre>
 
 ## MagicWords:
