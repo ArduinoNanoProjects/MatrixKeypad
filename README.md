@@ -24,7 +24,7 @@ Arduino Keyboard Controller.
 
 ## Festlegen der Funktionstasten
 
-Über die Funktionstasten A bis D lassen sich 12 Funktionstasten von 0 bis 9 und die roten Tasten + und # mit einzelnen Ausführungen belegen.
+Über die Programmtasten A bis D lassen sich 12 Funktionstasten von 0 bis 9 und die roten Tasten + und # mit einzelnen Ausführungen belegen.
 
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot4.jpg"/>
 
