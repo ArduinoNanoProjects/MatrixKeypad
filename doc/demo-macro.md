@@ -7,7 +7,7 @@ Beispiel: `^n =  Strg + N`
 # = Windows Taste
 </pre>
 
-## Tastenkombinationen einfelnd gedrückt:
+## Tastenkombinationen einzeln gedrückt:
 <pre>
 {SPACE} = SPACE (Leertaste)
 {ENTER} = Eingabetaste auf der Haupttastatur
