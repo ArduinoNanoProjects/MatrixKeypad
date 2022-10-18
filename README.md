@@ -30,18 +30,18 @@ Arduino Keyboard Controller.
 
 ### Kanäle
 
-* - SHIFT+STRG+WIN+ALT+F11
-0 - SHIFT+STRG+WIN+ALT+F10
-1 - SHIFT+STRG+WIN+ALT+F1
-2 - SHIFT+STRG+WIN+ALT+F2
-3 - SHIFT+STRG+WIN+ALT+F3
-4 - SHIFT+STRG+WIN+ALT+F4
-5 - SHIFT+STRG+WIN+ALT+F5
-6 - SHIFT+STRG+WIN+ALT+F6
-7 - SHIFT+STRG+WIN+ALT+F7
-8 - SHIFT+STRG+WIN+ALT+F8
-9 - SHIFT+STRG+WIN+ALT+F9
-&#9839; - SHIFT+STRG+WIN+ALT+F12
+* - SHIFT+STRG+WIN+ALT+F11 <br>
+0 - SHIFT+STRG+WIN+ALT+F10<br>
+1 - SHIFT+STRG+WIN+ALT+F1<br>
+2 - SHIFT+STRG+WIN+ALT+F2<br>
+3 - SHIFT+STRG+WIN+ALT+F3<br>
+4 - SHIFT+STRG+WIN+ALT+F4<br>
+5 - SHIFT+STRG+WIN+ALT+F5<br>
+6 - SHIFT+STRG+WIN+ALT+F6<br>
+7 - SHIFT+STRG+WIN+ALT+F7<br>
+8 - SHIFT+STRG+WIN+ALT+F8<br>
+9 - SHIFT+STRG+WIN+ALT+F9<br>
+&#9839; - SHIFT+STRG+WIN+ALT+F12<br>
 
 ### Funktionen
 
@@ -60,9 +60,7 @@ Arduino Keyboard Controller.
 
 ## MagicWords
 
-MWs sind besondere Wörter die Du in Textdateien oder auch für die Funktionen nutzen kannst. Sie werden je nach Funktionalität in der Ausgabe ersetzt. Sie können unter anderm für Funktionen wie SENDCONTENT, SENDSTRING, COPYCONTENT oder COPYPAST verwendet werden:
-
-Siehe <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/help.md#magicwords">Doku</a>
+MWs sind besondere Wörter die Du in Textdateien oder auch für die Funktionen nutzen kannst. Sie werden je nach Funktionalität in der Ausgabe ersetzt. Sie können unter anderm für Funktionen wie MACRO, SENDSTRING, COPYCONTENT oder COPYPAST verwendet werden: Siehe <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/help.md#magicwords">Dokumentation</a>.
 
 
 ## Arduino Script
@@ -73,9 +71,8 @@ Siehe <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc
 - https://playground.arduino.cc/Code/Keypad/
 3. In diesem Beispiel wird ein Arduino Micro (ATmega32U4) aks Tastatursimulation verwendet.
 Dieser muss unter Werkzeuge mit dem Port ausgewählt werden.
-4. Das Keypad 4x4 wird über GND und an den Pins 2 bis 9 angeschlossen:
-<img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot5.jpg"/>
-5. Sketch kompilieren, prüfen und auf den Arduino hochladen
+4. Das Keypad 4x4 wird über GND und an den Pins 2 bis 9 angeschlossen: <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot5.jpg"/>
+5. Sketch kompilieren, prüfen und auf den Arduino hochladen<br>
 6. Die Funktion kann über den Seriellen Monitor durch drücken einer Taste geprüft werden.
 
 
@@ -83,9 +80,9 @@ Dieser muss unter Werkzeuge mit dem Port ausgewählt werden.
 
 1. Der einfach Demodruck kann über <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/3dPrint/MatrixKeypad.stl">MatrixKeypad.stl</a> bezogen werden.
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot6.jpg"/>
-2. Je nach Drucker und Filament muss das Objekt im Slicer erstellt werden.
-3. Den 3D-Printer konfigurieren und drucken  
-4. Zusammenbauen, fertig.
+2. Je nach Drucker und Filament muss das Objekt im Slicer erstellt werden.<br>
+3. Den 3D-Printer konfigurieren und drucken  <br>
+4. Zusammenbauen, fertig.<br>
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot2.jpg"/>
 
 
