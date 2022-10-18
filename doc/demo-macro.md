@@ -18,10 +18,70 @@ Bsp.:
 
 ## Beispieltastaturen:
 <pre>
-{TAB}
-{RIGHT}
-{DOWN}
-{ENTER}
+{SPACE} = SPACE (Leertaste)
+{ENTER} = Eingabetaste auf der Haupttastatur
+{ALT} = ALT
+{BACKSPACE} oder {BS} = BACKSPACE (Rücktaste)
+{DELETE} oder {DEL} = DELETE Entfernen (Entf)
+{UP} = Nach-Oben-Taste
+{DOWN} = Nach-Unten-Taste
+{LEFT} = Nach-Links-Taste
+{RIGHT} = Nach-Rechts-Taste
+{HOME} = HOME (Pos1 – Taste)
+{END} = END (Ende - Taste)
+{ESCAPE} oder {ESC} = ESCAPE- Taste
+{INSERT} oder {INS} = INS (EINFÜGEN (Einfg)-Taste)
+{PGUP} = PageUp (Bild-Auf-Taste)
+{PGDN} = PageDown (Bild-Ab-Taste)
+{F1} - {F12} = Funktionstasten
+{TAB} = TAB (Tabulator – Taste)
+{PRINTSCREEN} = Druck-Taste
+{LWIN} = linke Windows Taste
+{RWIN} = rechte Windows Taste
+{NUMLOCK on} = NUMLOCK (Num)-Taste (on/off/toggle)
+{CAPSLOCK off} = CAPSLOCK-Taste (FESTSTELLTASTE) (on/off/toggle)
+{SCROLLLOCK toggle} = ROLLEN-Taste (on/off/toggle)
+{BREAK} = STRG+Break = STRG+UNTERBRECHUNG Taste
+{PAUSE} = PAUSE-Taste
+{NUMPAD0} - {NUMPAD9} = Ziffernblock 0-9 (Numpad = numerisches Tastenfeld)
+{NUMPADMULT} = Multiplizieren auf Numpad
+{NUMPADADD} = Addieren auf Numpad
+{NUMPADSUB} = Subtrahieren auf Numpad
+{NUMPADDIV} = Dividieren auf Numpad
+{NUMPADDOT} = Punkt (Komma) auf Numpad
+{NUMPADENTER} = Eingabe-Taste auf Numpad
+{APPSKEY} = Windows-Programm Taste
+{LALT} = Linke ALT-Taste
+{RALT} = Rechte ALT-Taste
+{LCTRL} = Linke STRG-Taste
+{RCTRL} = Rechte STRG-Taste
+{LSHIFT} = Linke Shift-Taste
+{RSHIFT} = Rechte Shift-Taste
+{SLEEP} = Computer PAUSE Taste
+{ALTDOWN} = Hält die ALT-Taste gedrückt, bis {ALTUP} gesendet wird
+{SHIFTDOWN} = Hält die SHIFT-Taste gedrückt, bis {SHIFTUP} gesendet wird
+{CTRLDOWN} = Hält die STRG-Taste gedrückt, bis {CTRLUP} gesendet wird
+{LWINDOWN} = Hält die linke Windows-Taste gedrückt, bis {LWINUP} gesendet wird
+{RWINDOWN} = Hält die rechte Windows-Taste gedrückt, bis {RWINUP} gesendet wird
+{ASC nnnn} = Sendet die ALT+nnnn ASCII-CODE-Tastenkombination
+{BROWSER_BACK} = Wählt den Browser-Button "Zurück"
+{BROWSER_FORWARD} = Wählt den Browser-Button "Vorwärts"
+{BROWSER_REFRESH} = Wählt den Browser-Button "Aktualisieren"
+{BROWSER_STOP} = Wählt den Browser-Button "Stop"
+{BROWSER_SEARCH} = Wählt den Browser-Button "Suche"
+{BROWSER_FAVORITES} = Wählt den Browser-Button "Favoriten"
+{BROWSER_HOME} = Startet den Browser und geht zur Startseite
+{VOLUME_MUTE} = Stellt Lautsprecher auf Stumm
+{VOLUME_DOWN} = Reduziert die Lautstärke
+{VOLUME_UP} = Vergrößert die Lautstärke
+{MEDIA_NEXT} = Wählt den nächsten Track im Media Player
+{MEDIA_PREV} = Wählt den vorhergehenden Track im Media Player
+{MEDIA_STOP} = Stoppt Media Player
+{MEDIA_PLAY_PAUSE} = Wiedergabe/Pause Media Player
+{LAUNCH_MAIL} = Startet die Standard-E-Mail-Anwendung
+{LAUNCH_MEDIA} = Startet den Media Player
+{LAUNCH_APP1} = Startet das Anwender-Programm 1
+{LAUNCH_APP2} = Startet das Anwender-Programm 2
 </pre>
 
 ## MagicWords:
