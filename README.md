@@ -34,10 +34,10 @@ Arduino Keyboard Controller.
 Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D werden die Funktionen zur Verwendung der Ziffertasten 0-9 und &#9839;, &lowast; gewechselt. Die Sendekanäle werden vom Arduino genutzt um Befehle an das Programm MatrixKeypad.exe zu übertragen. Dieses entfängt die Tastenkobinationen und ruft die jeweiligen Funktion mit den für diese Taste hinterlegt Daten auf. So kann z.B. ein Programm geöffnet werden, dessen Pfad für eine Taste hinterlegt wurde. Über die 4 Programmtasten können so jeweils 48 Kombinationen anhand der 12 Funktionstasten hinterlegt werden.
 
 #### Kanäle der Programmtasten:
-A - `SHIFT+STRG+ALT+a`<br>
-B - `SHIFT+STRG+ALT+b`<br>
-C - `SHIFT+STRG+ALT+c`<br>
-D - `SHIFT+STRG+ALT+d`<br>
+A - `SHIFT+STRG+ALT+a` - Tastenkombinationen mit Funktionen<br>
+B - `SHIFT+STRG+ALT+b` - Tastenkombinationen mit Funktionen<br>
+C - `SHIFT+STRG+ALT+c` - Tastenkombinationen mit Funktionen<br>
+D - `SHIFT+STRG+ALT+d` - Tastenkombinationen für festgelegte Programme<br>
 
 #### Kanäle der Funktionstasten:
 0 - `SHIFT+STRG+WIN+ALT+F10`<br>
@@ -74,19 +74,19 @@ D - `SHIFT+STRG+ALT+d`<br>
 
 Über die Programmtaste `D` können nun Programme festgelegt werden. Ist eines der festgelegten Programme gerade aktiv und im Fokus, dann wird der Datensatz der hinter diesen Programm hinterlegt wurde für die Sendetasten verwendet.
 
-1. Um ein Programm hinzuzufügen klicken, starte die Tastenkonbination Strg+Y (oder die eigene Festlegtung) bzw. licke auf das TayIcon und im Menü "Einstellungen".
-2. Gehe auf den Reiter "D: (Programmautomation)" und klicke die Schaltfläche [+ Programm]
+1. Um ein Programm hinzuzufügen klicken, starte die Tastenkonbination Strg+Y (oder die eigene Festlegtung) bzw. licke auf das TayIcon und im Menü `Einstellungen`.
+2. Gehe auf den Reiter `D: (Programmautomation)` und klicke die Schaltfläche `[+ Programm]`
 3. Wähle über das Programm-Dialog den Pfad zum Programm, welches Du festlegen möchtest und klicke auf OK
 4. Über die Auswahlbox wird das Programm und weitere angezeigt, die Du somit anpassen kannst.
-5. Klicke auf deiner KeyMatrix die Taste `D`
+5. Klicke auf deinem Keypad die Taste `D`
 6. Starte das Programm aus deiner Liste manuell und fokusiere das Fenster, wenn Du weitere Fenster auf dem Bildschirm hast
-7. Klicke eine Kombinationstaste hinter der Du eine Funktion abgelegt ist
+7. Klicke eine Kombinationstaste hinter der Du eine Funktion abgelegt hast
 
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot7.jpg"/>
 
 **Tipp:** In Kombination von Macros kannst Du Tastenkombinationen oder ganze Tastaturabläufe hinterlegen und diese mit nur einem Key starten. Es ist auch u.a. auch möglich, andere Programm z.B. am Ende eines Ablaufes zu starten.
 
-Mehr dazu, findest Du direkt in der <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/help.md#Automation">Dokumentation</a>.
+Mehr dazu findest Du in der <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/help.md#Automation">Dokumentation</a>, direkt unter `Automation`.
 
 
 
