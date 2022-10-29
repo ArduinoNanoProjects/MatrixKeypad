@@ -1,3 +1,36 @@
+# Automation
+1. Erstelle eine Text-Datei z.B. automation.txt und Suche eine eines der Funktionstasten `A`,`B` oder`C` aus bzw. die Funktionstaste `D`, wenn du eine Programm automatisieren möchtest. <br>
+2. Wähle eine Taste aus und setze die Funktion auf `MACRO`<br>
+3. Öffne die Text-Datei und vergebe einzelne Schritte die per Tastatur durchgeführt werden sollen. Z.B. könnte ein folgender Ablauf durchgeführt werden:<br>
+<pre>
+; 						# Warte 2500ms bis die Aktion beginnt
+^n						# Starte Tastenkombination Strg+N
+,						# Warte erneut nur 1500ms bis ein Fenster angezeigt wird
+{TAB}{TAB}{TAB}			# Drück 3x schnell hintereinander die Tabulator-Taste
+{TAB}{TAB}{TAB}			# Warte 100ms und drück erneut 3x schnell nacheinander die Tab-Taste
+Das ist ein Test.		# Schreibe nun in ein Feld "Das ist ein Test."
+.						# Warte nun 500ms ab
+{TAB}{ENTER}			# Klicke nun auf OK mit Tab und danach sofort Enter
+</pre>
+
+4. Es kann auch zuerst ein weiteres Programm geöffnet werden. Z.B. den Taschenrechner starten und eine Rechnung durchführen:<br>
+<pre>
+Run(calc.exe)			# Starte das Windows eigene Programm "calc.exe". (Dies braucht keine Pfadangaben!)
+; 						# Warte 2500ms bis das Programm "Taschenrechner" gestartet wurde.
+100{*}200 				# Sende die Tastenangaben 100 x 200 
+{ENTER}					# Klicke die Enter, um das Ergebnis im Taschenrechner anzuzeigen
+</pre>
+
+
+## Ein Programm starten:
+<pre>
+Run(C:\path\to\programm.exe)
+</pre>
+Beispiel: `Run(calc.exe)`
+
+## Kommentar:
+Beispiel: `^n  # das ist ein Kommentar und dieser wird nicht ausgelesen`
+
 ## Mausklicks:
 <pre>
 &lsaquo; = links
@@ -7,14 +40,20 @@
 ## Schlüsseltasten gleichzeitig gedrückt:
 Beispiel: `^n =  Strg + N`
 <pre>
-^ = Strg
+^ = Strg 
 ! = Alt
-+ = Shift
++ = Shift (Hochstelltaste)
 # = Windows Taste
 </pre>
 
 ## Tastenkombinationen einzeln gedrückt:
 <pre>
+{^} = Grad
+{!} = Ausrufezeichen
+{+} = Plus
+{#} = Raute
+{-} = Minus
+
 {SPACE} = SPACE (Leertaste)
 {ENTER} = Eingabetaste auf der Haupttastatur
 {ALT} = ALT

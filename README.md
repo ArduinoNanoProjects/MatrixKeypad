@@ -70,6 +70,26 @@ D - `SHIFT+STRG+ALT+d`<br>
 - **ZIP:** Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter `"Umgebung > Zip-Ordner öffnen"` direkt aufgerufen werden.
 
 
+### Programmauswahl
+
+Über die Programmtaste `D` können nun Programme festgelegt werden. Ist eines der festgelegten Programme gerade aktiv und im Fokus, dann wird der Datensatz der hinter diesen Programm hinterlegt wurde für die Sendetasten verwendet.
+
+1. Um ein Programm hinzuzufügen klicken, starte die Tastenkonbination Strg+Y (oder die eigene Festlegtung) bzw. licke auf das TayIcon und im Menü "Einstellungen".
+2. Gehe auf den Reiter "D: (Programmautomation)" und klicke die Schaltfläche [+ Programm]
+3. Wähle über das Programm-Dialog den Pfad zum Programm, welches Du festlegen möchtest und klicke auf OK
+4. Über die Auswahlbox wird das Programm und weitere angezeigt, die Du somit anpassen kannst.
+5. Klicke auf deiner KeyMatrix die Taste `D`
+6. Starte das Programm aus deiner Liste manuell und fokusiere das Fenster, wenn Du weitere Fenster auf dem Bildschirm hast
+7. Klicke eine Kombinationstaste hinter der Du eine Funktion abgelegt ist
+
+<img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot7.jpg"/>
+
+**Tipp:** In Kombination von Macros kannst Du Tastenkombinationen oder ganze Tastaturabläufe hinterlegen und diese mit nur einem Key starten. Es ist auch u.a. auch möglich, andere Programm z.B. am Ende eines Ablaufes zu starten.
+
+Mehr dazu, findest Du direkt in der <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/help.md#Automation">Dokumentation</a>.
+
+
+
 ## MagicWords
 
 MWs sind besondere Wörter die Du in Textdateien oder auch für die Funktionen nutzen kannst. Sie werden je nach Funktionalität in der Ausgabe ersetzt. Sie können unter anderm für Funktionen wie MACRO, SENDSTRING, COPYCONTENT oder COPYPAST verwendet werden: Siehe <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/help.md#magicwords">Dokumentation</a>.
