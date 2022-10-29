@@ -3,22 +3,22 @@
 2. Wähle eine Taste aus und setze die Funktion auf `MACRO`<br>
 3. Öffne die Text-Datei und vergebe einzelne Schritte die per Tastatur durchgeführt werden sollen. Z.B. könnte ein folgender Ablauf durchgeführt werden:<br>
 <pre>
-; 						# Warte 2500ms bis die Aktion beginnt
-^n						# Starte Tastenkombination Strg+N
-,						# Warte erneut nur 1500ms bis ein Fenster angezeigt wird
-{TAB}{TAB}{TAB}			# Drück 3x schnell hintereinander die Tabulator-Taste
-{TAB}{TAB}{TAB}			# Warte 100ms und drück erneut 3x schnell nacheinander die Tab-Taste
-Das ist ein Test.		# Schreibe nun in ein Feld "Das ist ein Test."
-.						# Warte nun 500ms ab
-{TAB}{ENTER}			# Klicke nun auf OK mit Tab und danach sofort Enter
+;                       # Warte 2500ms bis die Aktion beginnt
+^n                      # Starte Tastenkombination Strg+N
+,                       # Warte erneut nur 1500ms bis ein Fenster angezeigt wird
+{TAB}{TAB}{TAB}         # Drück 3x schnell hintereinander die Tabulator-Taste
+{TAB}{TAB}{TAB}         # Warte 100ms und drück erneut 3x schnell nacheinander die Tab-Taste
+Das ist ein Test.       # Schreibe nun in ein Feld "Das ist ein Test."
+.                       # Warte nun 500ms ab
+{TAB}{ENTER}            # Klicke nun auf OK mit Tab und danach sofort Enter
 </pre>
 
 4. Es kann auch zuerst ein weiteres Programm geöffnet werden. Z.B. den Taschenrechner starten und eine Rechnung durchführen:<br>
 <pre>
-Run(calc.exe)			# Starte das Windows eigene Programm "calc.exe". (Dies braucht keine Pfadangaben!)
-; 						# Warte 2500ms bis das Programm "Taschenrechner" gestartet wurde.
-100{*}200 				# Sende die Tastenangaben 100 x 200 
-{ENTER}					# Klicke die Enter, um das Ergebnis im Taschenrechner anzuzeigen
+Run(calc.exe)           # Starte das Windows eigene Programm "calc.exe". (Dies braucht keine Pfadangaben!)
+;                       # Warte 2500ms bis das Programm "Taschenrechner" gestartet wurde.
+100{*}200               # Sende die Tastenangaben 100 x 200 
+{ENTER}                 # Klicke die Enter, um das Ergebnis im Taschenrechner anzuzeigen
 </pre>
 
 
