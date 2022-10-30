@@ -10,29 +10,29 @@ Arduino Keyboard Controller.
 
 (Achtung: Das Herunterladen und automatische Einrichten kann ca. 15 Minuten dauern!)
 
-2. MatrixKeypad und das Arduino Sketch werden danach automatisch gestartet: Du kannst den Einstellungen-Dialog von MatrixKeypad mit [x] schließe und über den Tastenbefehl `STRG+y` wieder aufrufen. 
+2. MatrixKeypad und das Arduino Sketch werden danach automatisch gestartet: Du kannst den Einstellungen-Dialog von MatrixKeypad mit [x] schließe und über den Tastenbefehl `STRG+Y` wieder aufrufen. 
 
 **Zu den Menüs**
 - Umgebung: Hier kann auf den Speicherort gesprungen werden, an dem alle Daten für MatrixKeypad.exe abgelegt werden:
-<pre>"C:\Users\&lt;username&gt;\AppData\Roaming\_MC\MatrixKeypad"</pre>
+`"C:\Users\&lt;username&gt;\AppData\Roaming\_MC\MatrixKeypad"`
 - Arduino Sketch: Das dazugehörige Arduino Sketch erneut über die Arduino IDE aufrufen. Es wird bei der Installation in der Umgebung mit abgelegt.
 - Fenster schließe: kann das Einstellen-Dialog minimiert werden. Mit dem festgelegten Tastenkürzel (Standard:`STRG+Y`), kann das Einstellen-Dialog wieder aufgerufen werden.
 - Programm beenden: Beendet das Programm
-- Weitere Hilfe über Github: siehe doc/help.md
+- Weitere Hilfe über Github: siehe `doc/help.md`.
 
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot3.jpg"/>
 
 
 ## Festlegen der Funktionstasten
 
-Über die Programmtasten A bis D lassen sich 12 Funktionstasten von 0 bis 9 und die roten Tasten &#9839; und &lowast; mit einzelnen Ausführungen belegen.
+Über die Programmtasten [A] bis [D] lassen sich 12 Funktionstasten von [0] bis [9] und die roten Tasten [&#9839;] und [&lowast;] mit einzelnen Ausführungen belegen.
 
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot4.jpg"/>
 
 
 ### Sendekanäle
 
-Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D werden die Funktionen zur Verwendung der Ziffertasten 0-9 und &#9839;, &lowast; gewechselt. Die Sendekanäle werden vom Arduino genutzt um Befehle an das Programm MatrixKeypad.exe zu übertragen. Dieses entfängt die Tastenkobinationen und ruft die jeweiligen Funktion mit den für diese Taste hinterlegt Daten auf. So kann z.B. ein Programm geöffnet werden, dessen Pfad für eine Taste hinterlegt wurde. Über die 4 Programmtasten können so jeweils 48 Kombinationen anhand der 12 Funktionstasten hinterlegt werden.
+Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D werden die Funktionen zur Verwendung der Ziffertasten [0] bis [9], [&#9839;] und [&lowast;] gewechselt. Die Sendekanäle werden vom Arduino genutzt um Befehle an das Programm MatrixKeypad.exe zu übertragen. Dieses entfängt die Tastenkobinationen und ruft die jeweiligen Funktion mit den für diese Taste hinterlegt Daten auf. So kann z.B. ein Programm geöffnet werden, dessen Pfad für eine Taste hinterlegt wurde. Über die 4 Programmtasten können so jeweils 48 Kombinationen anhand der 12 Funktionstasten hinterlegt werden.
 
 #### Kanäle der Programmtasten:
 - `SHIFT+STRG+ALT+a` - Programmtaste [A] für die Funktionstasten [0] bis [9], [&#9839;] und [&lowast;]<br>
@@ -71,13 +71,13 @@ Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D wer
 
 ### Programmauswahl
 
-Über die Programmtaste `D` können nun Programme festgelegt werden. Ist eines der festgelegten Programme gerade aktiv und im Fokus, dann wird der Datensatz der hinter diesen Programm hinterlegt wurde für die Sendetasten verwendet.
+Über die Programmtaste [D] können nun Programme festgelegt werden. Ist eines der festgelegten Programme gerade aktiv und im Fokus, dann wird der Datensatz der hinter diesen Programm hinterlegt wurde für die Sendetasten verwendet.
 
 1. Um ein Programm hinzuzufügen klicken, starte die Tastenkonbination Strg+Y (oder die eigene Festlegtung) bzw. licke auf das TayIcon und im Menü `Einstellungen`.
 2. Gehe auf den Reiter `D: (Programmautomation)` und klicke die Schaltfläche `[+ Programm]`
 3. Wähle über das Programm-Dialog den Pfad zum Programm, welches Du festlegen möchtest und klicke auf OK
 4. Über die Auswahlbox wird das Programm und weitere angezeigt, die Du somit anpassen kannst.
-5. Klicke auf deinem Keypad die Taste `D`
+5. Klicke auf deinem Keypad die Taste [D]
 6. Starte das Programm aus deiner Liste manuell und fokusiere das Fenster, wenn Du weitere Fenster auf dem Bildschirm hast
 7. Klicke eine Kombinationstaste hinter der Du eine Funktion abgelegt hast
 
