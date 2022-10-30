@@ -10,7 +10,7 @@ Arduino Keyboard Controller.
 
   **(Achtung: Das Herunterladen und automatische Einrichten kann ca. 15 Minuten dauern!)**
 
-2. MatrixKeypad und das Arduino Sketch werden danach automatisch gestartet: Du kannst den Einstellungen-Dialog von MatrixKeypad mit [x] schließe und über den Tastenbefehl `STRG+Y` wieder aufrufen. 
+2. MatrixKeypad und das Arduino Sketch werden danach automatisch gestartet: Du kannst den Einstellungen-Dialog von MatrixKeypad mit [x] minimieren und über den Tastenbefehl `STRG+Y` wieder aufrufen. Über das gelbe Eingabefeld kannst Du auch einen eigenen Shortcut zum aufrufen der Einstellungen festlegen.
 
 ### Zu den Menüs
 - Umgebung: Hier kann auf den Speicherort gesprungen werden, an dem alle Daten für MatrixKeypad.exe abgelegt werden:
