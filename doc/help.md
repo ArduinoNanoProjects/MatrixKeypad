@@ -1,7 +1,7 @@
 # Automation
-1. Erstelle eine Text-Datei z.B. automation.txt und Suche eine eines der Funktionstasten `A`,`B` oder`C` aus bzw. die Funktionstaste `D`, wenn du eine Programm automatisieren möchtest. <br>
-2. Wähle eine Taste aus und setze die Funktion auf `MACRO`<br>
-3. Öffne die Text-Datei und vergebe einzelne Schritte die per Tastatur durchgeführt werden sollen. Z.B. könnte ein folgender Ablauf durchgeführt werden:<br>
+1. Erstelle eine Text-Datei (z.B. automation.txt) und Suche eines der Funktionstasten `[0]` bis `[9]` aus bzw. ein Programm, über die Programmauswahl `[D]` (wenn du eine Programm automatisieren möchtest). <br>
+2. Wähle eine Funktionstaste aus und setze die Funktion `MACRO`.<br>
+3. Öffne die Text-Datei und vergebe einzelne Schritte, die per Tastatur oder Maus durchgeführt werden sollen. Z.B. könnte ein folgender Ablauf durchzuführen sein:<br>
 <pre>
 ;                       # Warte 2500ms bis die Aktion beginnt
 ^n                      # Starte Tastenkombination Strg+N
