@@ -6,7 +6,7 @@
 ;                       # Warte 2500ms bis die Aktion beginnt
 ^n                      # Starte Tastenkombination Strg+N
 ,                       # Warte erneut nur 1500ms bis ein Fenster angezeigt wird
-{TAB}{TAB}{TAB}         # Drück 3x schnell hintereinander die Tabulator-Taste
+{TAB}{TAB}{TAB}         # Drücke 3x schnell hintereinander die Tabulator-Taste
 {TAB}{TAB}{TAB}         # Warte 100ms und drück erneut 3x schnell nacheinander die Tab-Taste
 Das ist ein Test.       # Schreibe nun in ein Feld "Das ist ein Test."
 .                       # Warte nun 500ms ab
