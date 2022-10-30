@@ -158,10 +158,16 @@ Heute ist der 22.12.2022.
 Wir habe es gerade 13 Uhr 55 und 23 Sekunden.
 </pre>
 
+Du kannst auch die Funktion `SENDKEY` nutzen um Text und Tastenkombinationen herauszugeben oder `EXPLORER` um einen Ordner zu öffnen:
+<pre>
+{@MyDocumentsDir}\Meine Schriften
+</pre>
+
+Es wird der Ordner `Meine Schriften`, im Explorer angezeigt. Dieser wurde über den Pfad `C:\Users\<Nutzername>\Dokumente\Meine Schriften\` geöffnet.
  
 ### Alle magischen Wörter im Überblick
 
-**Datumsangaben**
+**Datumsangaben:**
 
 `{HEUTE}` -> `03.10.2022` <br>
 
@@ -169,14 +175,15 @@ Wir habe es gerade 13 Uhr 55 und 23 Sekunden.
 `{MONAT}` -> `10` <br>
 `{TAG}` -> `03` <br>
 
-**Zeitangaben**
+**Zeitangaben:**
 
 `{ZEIT}` -> `17:01:10` <br>
+
 `{STUNDE}` -> `17` <br>
 `{MINUTE}` -> `01` <br>
 `{SEKUNDEN}` -> `10` <br>
 
-**Pfadangaben**
+**Pfadangaben:**
 
 `{@HomeDrive}` -> `C:` <br>
 `{@WindowsDir}` -> `C:\WINDOWS` <br>
@@ -202,7 +209,7 @@ Wir habe es gerade 13 Uhr 55 und 23 Sekunden.
 `{@StartupCommonDir}` -> `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup` <br>
 `{@LogonServer}` -> `\\COMPUTERNAME` <br>
 
-**Windows Angaben**
+**Windows Angaben:**
 
 `{@UserName}` -> `<Nutzername>` <br>
 `{@ComputerName}` -> `COMPUTERNAME` <br>
