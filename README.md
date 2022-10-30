@@ -118,6 +118,14 @@ Dieser muss unter Werkzeuge mit dem Port ausgewählt werden.
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot2.jpg"/>
 
 
+### Arduino Updates
+Es wird die Portable Version der Aurduino IDE beim ersten Start heruntergeladen. 
+Wurde eine neue Version dafür vergeben wird diese automatisch beim Start gefunden. 
+Sie kann kauf über das Menü `Arduino IDE > Nach Updates suchen` manuell heruntergeladen werden.
+
+### Backups 
+Über den Menüeintrage `Sicherungen > Sicherung erstellen` können nun Backups erstellt werden. Sie werden mit Benutzernamen und Datum versehen. Die Sicherung schließt die Ordner "programs", "templates" und die "db" (Datenbankdatei) mit ein. Sie werden als Zip-Datei erstellt und unter dem Ordner "backups" im Hauptverzeichni abgelegt. Um direckt auf die Umgebung zuzugreifen, kann der Backup-Ordner über den Menüeintrag `Sicherungen > Umgebung öffnen` geöffnet werden.
+
 ### License
 
 CC BY-NC-SA
