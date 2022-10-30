@@ -16,7 +16,7 @@ _TIPP:_ Über das gelbe Eingabefeld, kannst Du deine eigene Tastenkombination zu
 
 ### Zu den Menüs
 - Umgebung: Hier kann auf den Speicherort gesprungen werden, an dem alle Daten für MatrixKeypad.exe abgelegt werden:
-`C:\Users\&lt;username&gt;\AppData\Roaming\_MC\MatrixKeypad`
+`C:\Users\<username>\AppData\Roaming\_MC\MatrixKeypad`
 - Arduino Sketch: Das dazugehörige Arduino Sketch erneut über die Arduino IDE aufrufen. Es wird bei der Installation in der Umgebung mit abgelegt.
 - Fenster minimieren: kann das Einstellen-Fenster minimiert werden. Mit dem festgelegten Tastenkürzel (Standard:`STRG+Y`), kann das Einstellen-Fenster wieder aufgerufen werden. Du kannst auch zum minimieren des Fensters ebenfalls das Tastenkürzel `ALT+F4` nutzen.
 - Programm beenden: Beendet das Programm vollständig.
