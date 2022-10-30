@@ -196,8 +196,8 @@ Es wird der Ordner `Meine Schriften` im Explorer angezeigt. Dieser wurde über d
 `{@HomeDrive}` = `C:` <br>
 `{@WindowsDir}` = `C:\WINDOWS` <br>
 `{@SystemDir}` = `C:\WINDOWS\system32` <br>
-`{@ScriptDir}` = `C:\KeypadMatrix` <br>
-`{@ProgramsDir}` = `C:\KeypadMatrix\MatrixKeypad.exe` (Programmumgebung) <br>
+`{@ScriptDir}` = `C:\KeypadMatrix` Programmumgebung) <br>
+`{@ProgramsDir}` = `C:\KeypadMatrix\MatrixKeypad.exe` (Programmpfad) <br>
 
 `{@DesktopCommonDir}` = `C:\Users\Public\Desktop` <br>
 `{@DocumentsCommonDir}` = `C:\Users\Public\Documents` <br>
