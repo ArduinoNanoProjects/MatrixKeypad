@@ -140,50 +140,83 @@ Beispiel: `^n =  Strg + N`
 . = 500ms
 </pre>
 
-## MagicWords:
+## MagicWords (MW):
+MagicWords sind wie der Name schon vermuten lässt, ganz besondere Wörter.
+
+Du kannst sie in einer Textdateien hinterlegen und sie durch die Funktionen
+`MACRO`, `SENDSTRING`, `COPYCONTENT` oder `COPYPAST` verwenden. Der Inhalt wird dann umgewandelt, sodas der Inhalt damit eretzt wird. 
+
+**Zum Beispiel:**
+Eine Textdatei (test.txt) mit folgenden Inhalt, wurde mit der Funktion `COPYPAST`, auf die Funktionstaste `[0]` im Keypad Programm `[A]` hinterlegt:
+<pre>
+Heute ist der {HEUTE}. 
+Wir habe es gerade {STUNDE} Uhr {MINUTE} und {SEKUNDEN} Sekunden.
+</pre>
+
+Wird die Taste `[A:0]` gedrückt, wird der Inhalt der Datei ausgelesen und die MWs ersetzt. Danach wird der Inhalt ausgegeben. Dieser sieht nun wie folgt aus:
+<pre>
+Heute ist der 22.12.2022. 
+Wir habe es gerade 13 Uhr 55 und 23 Sekunden.
+</pre>
+
+ 
+### Alle magischen Wörter im Überblick
+
+**Datumsangaben**
+
 `{HEUTE}` -> `03.10.2022` <br>
+
 `{JAHR}` -> `2022` <br>
 `{MONAT}` -> `10` <br>
 `{TAG}` -> `03` <br>
+
+**Zeitangaben**
+
 `{ZEIT}` -> `17:01:10` <br>
 `{STUNDE}` -> `17` <br>
 `{MINUTE}` -> `01` <br>
 `{SEKUNDEN}` -> `10` <br>
-`{@ScriptDir}` -> `D:\Sicherungen\_Github\KeypadMatrix\KeypadMatrix` <br>
-`{@AppDataDir}` -> `C:\Users\Nutzername\AppData\Roaming` <br>
-`{@ComputerName}` -> `COMPUTERNAME` <br>
+
+**Pfadangaben**
+
+`{@HomeDrive}` -> `C:` <br>
+`{@WindowsDir}` -> `C:\WINDOWS` <br>
+`{@SystemDir}` -> `C:\WINDOWS\system32` <br>
+`{@ScriptDir}` -> `C:\KeypadMatrix` <br>
+`{@ProgramsDir}` -> `C:\KeypadMatrix\MatrixKeypad.exe` <br>
 `{@DesktopCommonDir}` -> `C:\Users\Public\Desktop` <br>
-`{@DesktopDepth}` -> `32` <br>
+`{@DocumentsCommonDir}` -> `C:\Users\Public\Documents` <br>
+`{@HomePath}` -> `\Users\<Nutzername>` <br>
 `{@DesktopDir}` -> `C:\Users\Nutzermane\Desktop` <br>
+`{@FavoritesDir}` -> `C:\Users\<Nutzername>\Favorites` <br>
+`{@FavoritesCommonDir}` -> `C:\Users\<Nutzername>\Favorites` <br>
+`{@AppDataDir}` -> `C:\Users\<Nutzername>\AppData\Roaming` <br>
+`{@LocalAppDataDir}` -> `C:\Users\<Nutzername>\AppData\Local` <br>
+`{@LogonDNSDomain}` -> `C:\Users\<Nutzername>\AppData\Local` <br>
+`{@TempDir}` -> `C:\Users\<Nutzername>\AppData\Local\Temp` <br>
+`{@MyDocumentsDir}` -> `C:\Users\<Nutzername>\Documents` <br>
+`{@UserProfileDir}` -> `C:\Users\<Nutzername>` <br>
+`{@ProgramsCommonDir}` -> `C:\Users\<Nutzername>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs` <br>
+`{@StartMenuDir}` -> `C:\Users\<Nutzername>\AppData\Roaming\Microsoft\Windows\Start Menu` <br>
+`{@ProgramFilesDir}` -> `C:\ProgramData\Microsoft\Windows\Start Menu\Programs` <br>
+`{@ScriptFullPath}` -> `C:\ProgramData\Microsoft\Windows\Start Menu` <br>
+`{@StartupCommonDir}` -> `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup` <br>
+`{@LogonServer}` -> `\\COMPUTERNAME` <br>
+
+**Windows Angaben**
+
+`{@UserName}` -> `<Nutzername>` <br>
+`{@ComputerName}` -> `COMPUTERNAME` <br>
+`{@LogonDomain}` -> `COMPUTERNAME` <br>
+`{@IPAddress1}` -> `192.168.000.001` <br>
+`{@DesktopDepth}` -> `32` <br>
+`{@DesktopRefresh}` -> `59` <br>
 `{@DesktopHeight}` -> `1080` <br>
 `{@DesktopWidth}` -> `1920` <br>
-`{@DesktopRefresh}` -> `59` <br>
-`{@DocumentsCommonDir}` -> `C:\Users\Public\Documents` <br>
-`{@FavoritesCommonDir}` -> `C:\Users\Nutzername\Favorites` <br>
-`{@FavoritesDir}` -> `C:\Users\Nutzername\Favorites` <br>
-`{@HomeDrive}` -> `C:` <br>
-`{@HomePath}` -> `\Users\Nutzername` <br>
-`{@IPAddress1}` -> `192.168.000.001` <br>
-`{@KBLayout}` -> `00000207`  <br>
-`{@LocalAppDataDir}` -> `C:\Users\Nutzername\AppData\Local` <br>
-`{@LogonDNSDomain}` -> `C:\Users\Nutzername\AppData\Local` <br>
-`{@LogonDomain}` -> `COMPUTERNAME` <br>
-`{@LogonServer}` -> `\\COMPUTERNAME` <br>
-`{@MyDocumentsDir}` -> `C:\Users\Nutzername\Documents` <br>
 `{@OSArch}` -> `X64` <br>
 `{@OSBuild}` -> `19044` <br>
 `{@OSLang}` -> `0407` <br>
 `{@OSServicePack}` -> `WIN32_NT` <br>
 `{@OSType}` -> `WIN_10` <br>
-`{@OSVersion}` -> `C:\Program Files` <br>
-`{@ProgramFilesDir}` -> `C:\ProgramData\Microsoft\Windows\Start Menu\Programs` <br>
-`{@ProgramsCommonDir}` -> `C:\Users\Nutzername\AppData\Roaming\Microsoft\Windows\Start Menu\Programs` <br>
-`{@ProgramsDir}` -> `D:\Sicherungen\_Github\KeypadMatrix\KeypadMatrix\MatrixKeypad.exe` <br>
-`{@ScriptFullPath}` -> `C:\ProgramData\Microsoft\Windows\Start Menu` <br>
-`{@StartMenuDir}` -> `C:\Users\Nutzername\AppData\Roaming\Microsoft\Windows\Start Menu` <br>
-`{@StartupCommonDir}` -> `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup` <br>
-`{@SystemDir}` -> `C:\WINDOWS\system32` <br>
-`{@TempDir}` -> `C:\Users\Nutzername\AppData\Local\Temp` <br>
-`{@UserName}` -> `Nutzername` <br>
-`{@UserProfileDir}` -> `C:\Users\Nutzername` <br>
-`{@WindowsDir}` -> `C:\WINDOWS` 
+`{@OSVersion}` -> `1234` <br>
+`{@KBLayout}` -> `00000207`  <br>
