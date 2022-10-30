@@ -41,18 +41,18 @@ Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D wer
 - `SHIFT+STRG+ALT+d` - Programmtaste [D] für festgelegte Programme und den jeweiligen Funktionstasten 0-9, &#9839; und &lowast;<br>
 
 #### Kanäle der Funktionstasten:
-- `SHIFT+STRG+WIN+ALT+F10` - Funktionstaste [0] für die Programme A, B, C, D<br>
-- `SHIFT+STRG+WIN+ALT+F1` - Funktionstaste [1] für die Programme A, B, C, D <br>
-- `SHIFT+STRG+WIN+ALT+F2` - Funktionstaste [2] für die Programme A, B, C, D <br>
-- `SHIFT+STRG+WIN+ALT+F3` - Funktionstaste [3] für die Programme A, B, C, D <br>
-- `SHIFT+STRG+WIN+ALT+F4` - Funktionstaste [4] für die Programme A, B, C, D <br>
-- `SHIFT+STRG+WIN+ALT+F5` - Funktionstaste [5] für die Programme A, B, C, D <br>
-- `SHIFT+STRG+WIN+ALT+F6` - Funktionstaste [6] für die Programme A, B, C, D <br>
-- `SHIFT+STRG+WIN+ALT+F7` - Funktionstaste [7] für die Programme A, B, C, D <br>
-- `SHIFT+STRG+WIN+ALT+F8` - Funktionstaste [8] für die Programme A, B, C, D <br>
-- `SHIFT+STRG+WIN+ALT+F9` - Funktionstaste [9] für die Programme A, B, C, D <br>
-- `SHIFT+STRG+WIN+ALT+F11` - Funktionstaste [&#9839;] für die Programme A, B, C, D <br>
-- `SHIFT+STRG+WIN+ALT+F12` - Funktionstaste [&lowast;] für die Programme A, B, C, D <br>
+- `SHIFT+STRG+WIN+ALT+F10` - Funktionstaste [0] für die Programme [A], [B], [C], [D] <br>
+- `SHIFT+STRG+WIN+ALT+F1` - Funktionstaste [1] für die Programme [A], [B], [C], [D] <br>
+- `SHIFT+STRG+WIN+ALT+F2` - Funktionstaste [2] für die Programme [A], [B], [C], [D] <br>
+- `SHIFT+STRG+WIN+ALT+F3` - Funktionstaste [3] für die Programme [A], [B], [C], [D] <br>
+- `SHIFT+STRG+WIN+ALT+F4` - Funktionstaste [4] für die Programme [A], [B], [C], [D] <br>
+- `SHIFT+STRG+WIN+ALT+F5` - Funktionstaste [5] für die Programme [A], [B], [C], [D] <br>
+- `SHIFT+STRG+WIN+ALT+F6` - Funktionstaste [6] für die Programme [A], [B], [C], [D] <br>
+- `SHIFT+STRG+WIN+ALT+F7` - Funktionstaste [7] für die Programme [A], [B], [C], [D] <br>
+- `SHIFT+STRG+WIN+ALT+F8` - Funktionstaste [8] für die Programme [A], [B], [C], [D] <br>
+- `SHIFT+STRG+WIN+ALT+F9` - Funktionstaste [9] für die Programme [A], [B], [C], [D] <br>
+- `SHIFT+STRG+WIN+ALT+F11` - Funktionstaste [&#9839;] für die Programme [A], [B], [C], [D] <br>
+- `SHIFT+STRG+WIN+ALT+F12` - Funktionstaste [&lowast;] für die Programme [A], [B], [C], [D] <br>
 
 ### Funktionen
 
