@@ -146,21 +146,27 @@ MagicWords sind wie der Name schon vermuten lässt, ganz besondere Wörter. Du k
 
 **Beispiel 1:**
 
-Eine Textdatei (test.txt) mit folgenden Inhalt, wurde mit der Funktion `COPYPAST`, auf die Funktionstaste `[0]` im Keypad Programm `[A]` hinterlegt:
+Eine Textdatei mit folgenden Inhalt, wurde mit der Funktion `COPYPAST`, auf die Funktionstaste `[0]` im Keypad Programm `[A]` hinterlegt:
 <pre>
+Vorlage: (test.txt)
+-------------------
+
 Heute ist der {HEUTE}. 
 Wir habe es gerade {STUNDE} Uhr {MINUTE} und {SEKUNDEN} Sekunden.
 </pre>
 
 Wird die Taste `[A:0]` gedrückt, wird der Inhalt der Datei ausgelesen und die MWs ersetzt. Danach wird der Inhalt ausgegeben. Dieser sieht nun wie folgt aus:
 <pre>
+Ergebnis: 
+-------------------
+
 Heute ist der 22.12.2022. 
 Wir habe es gerade 13 Uhr 55 und 23 Sekunden.
 </pre>
 
 **Beispiel 2:**
 
-Du kannst auch die Funktion `SENDKEY` nutzen um Text und Tastenkombinationen herauszugeben oder `EXPLORER` um einen Ordner zu öffnen:
+Du kannst auch die Funktion `SENDKEY` nutzen um Text und Tastenkombinationen herauszugeben, oder `EXPLORER`, um einen Ordner zu im Explorer öffnen zu lassen:
 <pre>
 {@MyDocumentsDir}\Meine Schriften
 </pre>
