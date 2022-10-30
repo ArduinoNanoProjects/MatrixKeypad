@@ -6,18 +6,19 @@ Arduino Keyboard Controller.
 
 ## Erster Start der MatrixKeypad.exe
 
-1. Starte MatrixKeypad.exe: Es wird eine Installation durchgeführt und die aktuelle Version der Arduino IDE, wie alle zusätzlichen Komponenten heruntergeladen, installiert und entzipt.
+1. Starte MatrixKeypad.exe: Es wird eine Installation durchgeführt und die aktuelle Version der Arduino IDE, wie alle zusätzlichen Komponenten heruntergeladen, entpackt und danach eingerichtet.
 
 (Achtung: Das Herunterladen und automatische Einrichten kann ca. 15 Minuten dauern!)
 
 2. MatrixKeypad und das Arduino Sketch werden danach automatisch gestartet: Du kannst den Einstellungen-Dialog von MatrixKeypad mit [x] schließe und über den Tastenbefehl `STRG+y` wieder aufrufen. 
 
-**Menü**
+**Zu den Menüs**
 - Umgebung: Hier kann auf den Speicherort gesprungen werden, an dem alle Daten für MatrixKeypad.exe abgelegt werden:
 <pre>"C:\Users\&lt;username&gt;\AppData\Roaming\_MC\MatrixKeypad"</pre>
 - Arduino Sketch: Das dazugehörige Arduino Sketch erneut über die Arduino IDE aufrufen. Es wird bei der Installation in der Umgebung mit abgelegt.
-- Fenster schließe: kann das Einstellen-Dialog minimiert werden. Mit dem festgelegten Tastenkürzel (Standard:`STRG+y`), kann das Einstellen-Dialog wieder aufgerufen werden.
+- Fenster schließe: kann das Einstellen-Dialog minimiert werden. Mit dem festgelegten Tastenkürzel (Standard:`STRG+Y`), kann das Einstellen-Dialog wieder aufgerufen werden.
 - Programm beenden: Beendet das Programm
+- Weitere Hilfe über Github: siehe doc/help.md
 
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot3.jpg"/>
 
@@ -34,26 +35,24 @@ Arduino Keyboard Controller.
 Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D werden die Funktionen zur Verwendung der Ziffertasten 0-9 und &#9839;, &lowast; gewechselt. Die Sendekanäle werden vom Arduino genutzt um Befehle an das Programm MatrixKeypad.exe zu übertragen. Dieses entfängt die Tastenkobinationen und ruft die jeweiligen Funktion mit den für diese Taste hinterlegt Daten auf. So kann z.B. ein Programm geöffnet werden, dessen Pfad für eine Taste hinterlegt wurde. Über die 4 Programmtasten können so jeweils 48 Kombinationen anhand der 12 Funktionstasten hinterlegt werden.
 
 #### Kanäle der Programmtasten:
-A - `SHIFT+STRG+ALT+a` - Tastenkombinationen mit Funktionen<br>
-B - `SHIFT+STRG+ALT+b` - Tastenkombinationen mit Funktionen<br>
-C - `SHIFT+STRG+ALT+c` - Tastenkombinationen mit Funktionen<br>
-D - `SHIFT+STRG+ALT+d` - Tastenkombinationen für festgelegte Programme<br>
+- `SHIFT+STRG+ALT+a` - Programmtaste [A] für die Funktionstasten 0-9, &#9839; und &lowast;<br>
+- `SHIFT+STRG+ALT+b` - Programmtaste [B] für die Funktionstasten 0-9, &#9839; und &lowast;<br>
+- `SHIFT+STRG+ALT+c` - Programmtaste [C] für die Funktionstasten 0-9, &#9839; und &lowast;<br>
+- `SHIFT+STRG+ALT+d` - Programmtaste [D] für festgelegte Programme und den jeweiligen Funktionstasten 0-9, &#9839; und &lowast;<br>
 
 #### Kanäle der Funktionstasten:
-0 - `SHIFT+STRG+WIN+ALT+F10`<br>
-1 - `SHIFT+STRG+WIN+ALT+F1`<br>
-2 - `SHIFT+STRG+WIN+ALT+F2`<br>
-3 - `SHIFT+STRG+WIN+ALT+F3`<br>
-4 - `SHIFT+STRG+WIN+ALT+F4`<br>
-5 - `SHIFT+STRG+WIN+ALT+F5`<br>
-6 - `SHIFT+STRG+WIN+ALT+F6`<br>
-7 - `SHIFT+STRG+WIN+ALT+F7`<br>
-8 - `SHIFT+STRG+WIN+ALT+F8`<br>
-9 - `SHIFT+STRG+WIN+ALT+F9`<br>
-&#9839; - `SHIFT+STRG+WIN+ALT+F11`<br>
-&lowast; - `SHIFT+STRG+WIN+ALT+F12`<br>
-
-
+- `SHIFT+STRG+WIN+ALT+F10` - Funktionstaste A,B,C: 0 mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F1` - Funktionstaste A,B,C: 1 mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F2` - Funktionstaste A,B,C: 2 mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F3` - Funktionstaste A,B,C: 3 mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F4` - Funktionstaste A,B,C: 4 mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F5` - Funktionstaste A,B,C: 5 mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F6` - Funktionstaste A,B,C: 6 mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F7` - Funktionstaste A,B,C: 7 mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F8` - Funktionstaste A,B,C: 8 mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F9` - Funktionstaste A,B,C: 9 mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F11` - Funktionstaste A-B: &#9839; mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F12` - Funktionstaste A-B: &lowast; mit Funktionen<br>
 
 ### Funktionen
 
@@ -67,7 +66,7 @@ D - `SHIFT+STRG+ALT+d` - Tastenkombinationen für festgelegte Programme<br>
 - **COPYPAST:** Liest den Inhalt einer Text-Datei aus und legt ihn in die Zwischenablage. (Mit STRG+C kann der Inhalt ausgegeben werden.)
 - **AUSCRIPT:** Ein über den Pfad zu einem AU3-Script wird direkt ausgeführt.
 - **WINDOWS:** Startet Windows eigene CPL-Programme. (z.B.: Programme löschen mit Appwiz.cpl)
-- **ZIP:** Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter `"Umgebung > Zip-Ordner öffnen"` direkt aufgerufen werden.
+- **ZIP:** Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter: `Umgebung > Zip-Ordner öffnen` direkt aufgerufen werden.
 
 
 ### Programmauswahl
