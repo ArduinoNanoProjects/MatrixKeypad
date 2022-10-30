@@ -141,12 +141,11 @@ Beispiel: `^n =  Strg + N`
 </pre>
 
 ## MagicWords (MW):
-MagicWords sind wie der Name schon vermuten lässt, ganz besondere Wörter.
-
-Du kannst sie in einer Textdateien hinterlegen und sie durch die Funktionen
+MagicWords sind wie der Name schon vermuten lässt, ganz besondere Wörter. Du kannst sie in einer Textdateien hinterlegen und sie durch die Funktionen
 `MACRO`, `SENDSTRING`, `COPYCONTENT` oder `COPYPAST` verwenden. Der Inhalt wird dann umgewandelt, sodas der Inhalt damit eretzt wird. 
 
 **Zum Beispiel:**
+
 Eine Textdatei (test.txt) mit folgenden Inhalt, wurde mit der Funktion `COPYPAST`, auf die Funktionstaste `[0]` im Keypad Programm `[A]` hinterlegt:
 <pre>
 Heute ist der {HEUTE}. 
