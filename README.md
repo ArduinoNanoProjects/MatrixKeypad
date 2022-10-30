@@ -51,8 +51,8 @@ Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D wer
 - `SHIFT+STRG+WIN+ALT+F7` - Funktionstaste A,B,C: 7 mit Funktionen<br>
 - `SHIFT+STRG+WIN+ALT+F8` - Funktionstaste A,B,C: 8 mit Funktionen<br>
 - `SHIFT+STRG+WIN+ALT+F9` - Funktionstaste A,B,C: 9 mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F11` - Funktionstaste A-B: &#9839; mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F12` - Funktionstaste A-B: &lowast; mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F11` - Funktionstaste A,B,C: &#9839; mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F12` - Funktionstaste A,B,C: &lowast; mit Funktionen<br>
 
 ### Funktionen
 
