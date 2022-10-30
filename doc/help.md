@@ -171,7 +171,7 @@ Du kannst auch die Funktion `SENDKEY` nutzen um Text und Tastenkombinationen her
 {@MyDocumentsDir}\Meine Schriften
 </pre>
 
-Es wird der Ordner `Meine Schriften`, im Explorer angezeigt. Dieser wurde über den Pfad `C:\Users\<Nutzername>\Dokumente\Meine Schriften\` geöffnet.
+Es wird der Ordner `Meine Schriften` im Explorer angezeigt. Dieser wurde über den Pfad `C:\Users\<Nutzername>\Dokumente\Meine Schriften\` geöffnet.
  
 ### Alle magischen Wörter im Überblick
 
