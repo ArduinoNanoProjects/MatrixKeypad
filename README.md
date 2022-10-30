@@ -41,18 +41,18 @@ Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D wer
 - `SHIFT+STRG+ALT+d` - Programmtaste [D] für festgelegte Programme und den jeweiligen Funktionstasten 0-9, &#9839; und &lowast;<br>
 
 #### Kanäle der Funktionstasten:
-- `SHIFT+STRG+WIN+ALT+F10` - Funktionstaste A,B,C: 0 mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F1` - Funktionstaste A,B,C: 1 mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F2` - Funktionstaste A,B,C: 2 mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F3` - Funktionstaste A,B,C: 3 mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F4` - Funktionstaste A,B,C: 4 mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F5` - Funktionstaste A,B,C: 5 mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F6` - Funktionstaste A,B,C: 6 mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F7` - Funktionstaste A,B,C: 7 mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F8` - Funktionstaste A,B,C: 8 mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F9` - Funktionstaste A,B,C: 9 mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F11` - Funktionstaste A,B,C: &#9839; mit Funktionen<br>
-- `SHIFT+STRG+WIN+ALT+F12` - Funktionstaste A,B,C: &lowast; mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F10` - Funktionstaste A, B, C, D: [0] mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F1` - Funktionstaste A, B, C, D: [1] mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F2` - Funktionstaste A, B, C, D: [2] mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F3` - Funktionstaste A, B, C, D: [3] mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F4` - Funktionstaste A, B, C, D: [4] mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F5` - Funktionstaste A, B, C, D: [5] mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F6` - Funktionstaste A, B, C, D: [6] mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F7` - Funktionstaste A, B, C, D: [7] mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F8` - Funktionstaste A, B, C, D: [8] mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F9` - Funktionstaste A, B, C, D: [9] mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F11` - Funktionstaste A, B, C, D: [&#9839;] mit Funktionen<br>
+- `SHIFT+STRG+WIN+ALT+F12` - Funktionstaste A, B, C, D: [&lowast;] mit Funktionen<br>
 
 ### Funktionen
 
