@@ -12,15 +12,24 @@ Arduino Keyboard Controller.
 
 2. MatrixKeypad und das Arduino Sketch werden danach automatisch gestartet: Du kannst den Einstellungen-Dialog von MatrixKeypad mit [x] schließe und über den Tastenbefehl `STRG+Y` wieder aufrufen. 
 
-**Zu den Menüs**
+### Zu den Menüs
 - Umgebung: Hier kann auf den Speicherort gesprungen werden, an dem alle Daten für MatrixKeypad.exe abgelegt werden:
-`"C:\Users\&lt;username&gt;\AppData\Roaming\_MC\MatrixKeypad"`
+`C:\Users\&lt;username&gt;\AppData\Roaming\_MC\MatrixKeypad`
 - Arduino Sketch: Das dazugehörige Arduino Sketch erneut über die Arduino IDE aufrufen. Es wird bei der Installation in der Umgebung mit abgelegt.
 - Fenster schließe: kann das Einstellen-Dialog minimiert werden. Mit dem festgelegten Tastenkürzel (Standard:`STRG+Y`), kann das Einstellen-Dialog wieder aufgerufen werden.
 - Programm beenden: Beendet das Programm
 - Weitere Hilfe über Github: siehe `doc/help.md`.
 
 <img src="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/screenshot3.jpg"/>
+
+### Arduino Updates
+Es wird die Portable Version der Aurduino IDE beim ersten Start heruntergeladen. 
+Wurde eine neue Version dafür vergeben wird diese automatisch beim Start gefunden. 
+Sie kann kauf über das Menü `Arduino IDE > Nach Updates suchen` manuell heruntergeladen werden.
+
+### Backups 
+Über den Menüeintrage `Sicherungen > Sicherung erstellen` können nun Backups erstellt werden. Sie werden mit Benutzernamen und Datum versehen. Die Sicherung schließt die Ordner "programs", "templates" und die "db" (Datenbankdatei) mit ein. Sie werden als Zip-Datei erstellt und unter dem Ordner "backups" im Hauptverzeichni abgelegt. Um direckt auf die Umgebung zuzugreifen, kann der Backup-Ordner über den Menüeintrag `Sicherungen > Umgebung öffnen` geöffnet werden.
+
 
 
 ## Festlegen der Funktionstasten
@@ -55,7 +64,6 @@ Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D wer
 - `SHIFT+STRG+WIN+ALT+F12` - Funktionstaste [&lowast;] für die Programme [A], [B], [C], [D] <br>
 
 ### Funktionen
-
 - **PROGRAM:** Starte ein ausgewähltes Programm. Nach der Auswahl kann über betätigen des Buttons ein Auswahl-Dialog gestartet werden oder der die Pfadangabe im Eingabefeld direkt vergeben werden.
 - **EXPLORER:** Öffne einen beliebigen Ordner per Pfadangabe.
 - **MACRO:** Liest die Tastenkombinationen aus einer Text-Datei aus und sendet diese an den PC. Diese Funktion nutzt auch MagicWords. Siehe <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/help.md">Übersicht in der Dokumentation</a>.
@@ -69,8 +77,7 @@ Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D wer
 - **ZIP:** Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter: `Umgebung > Zip-Ordner öffnen` direkt aufgerufen werden.
 
 
-### Programmauswahl
-
+### Programmauswahl über die Programmtaste [D]
 Über die Programmtaste [D] können nun Programme festgelegt werden. Ist eines der festgelegten Programme gerade aktiv und im Fokus, dann wird der Datensatz der hinter diesen Programm hinterlegt wurde für die Sendetasten verwendet.
 
 1. Um ein Programm hinzuzufügen klicken, starte die Tastenkonbination Strg+Y (oder die eigene Festlegtung) bzw. licke auf das TayIcon und im Menü `Einstellungen`.
@@ -87,13 +94,6 @@ Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D wer
 
 Mehr dazu findest Du in der <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/help.md#Automation">Dokumentation</a>, direkt unter `Automation`.
 
-### Arduino Updates
-Es wird die Portable Version der Aurduino IDE beim ersten Start heruntergeladen. 
-Wurde eine neue Version dafür vergeben wird diese automatisch beim Start gefunden. 
-Sie kann kauf über das Menü `Arduino IDE > Nach Updates suchen` manuell heruntergeladen werden.
-
-### Backups 
-Über den Menüeintrage `Sicherungen > Sicherung erstellen` können nun Backups erstellt werden. Sie werden mit Benutzernamen und Datum versehen. Die Sicherung schließt die Ordner "programs", "templates" und die "db" (Datenbankdatei) mit ein. Sie werden als Zip-Datei erstellt und unter dem Ordner "backups" im Hauptverzeichni abgelegt. Um direckt auf die Umgebung zuzugreifen, kann der Backup-Ordner über den Menüeintrag `Sicherungen > Umgebung öffnen` geöffnet werden.
 
 ## MagicWords
 
