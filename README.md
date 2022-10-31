@@ -66,14 +66,14 @@ Dies sind die Sendekanäle des Arduinos. Mittels der Funktionstasten A bis D wer
 - `SHIFT+STRG+WIN+ALT+F12` - Funktionstaste [&lowast;] für die Programme [A], [B], [C], [D] <br>
 
 ### Funktionen
-- **PROGRAM:** Starte ein ausgewähltes Programm. Nach der Auswahl kann über betätigen des Buttons ein Auswahl-Dialog gestartet werden oder der die Pfadangabe im Eingabefeld direkt vergeben werden.
-- **EXPLORER:** Öffne einen beliebigen Ordner per Pfadangabe.
+- **PROGRAM:** Starte ein ausgewähltes Programm. Nach der Auswahl kann über betätigen des Buttons ein Auswahl-Dialog gestartet werden oder der die Pfadangabe im Eingabefeld direkt vergeben werden. (Es sind MagixWords für Pfadangaben möglich.)
+- **EXPLORER:** Öffne einen beliebigen Ordner per Pfadangabe. (Es sind MagixWords für Pfade möglich.)
 - **MACRO:** Liest die Tastenkombinationen aus einer Text-Datei aus und sendet diese an den PC. Diese Funktion nutzt auch MagicWords. Siehe <a href="https://github.com/ArduinoNanoProjects/MatrixKeypad/blob/main/doc/help.md">Übersicht in der Dokumentation</a>.
-- **SEND INPUT:** Gibt den Inhalt des Eingabefeldes aus.
+- **SEND INPUT:** Gibt den Inhalt des Eingabefeldes aus. (Es sind MagixWords möglich.)
 - **SEND KEYS:** Gibt den Inhalt des Eingabefeldes aus: Tastenkombinationen wie Text können eingetragen werden.
-- **COPY CONTENT:** Liest den Inhalt einer Text-Datei in die Zwischenablage ein und gibt ihn danach aus.
+- **COPY CONTENT:** Liest den Inhalt einer Text-Datei in die Zwischenablage ein und gibt ihn danach aus. Es sind MagixWords in der Datei möglich. (Mit `STRG+C` kann der Inhalt ausgegeben werden.)
+- **COPY & PAST:** Liest den Inhalt einer Text-Datei aus und sendet ihn im Anschluss direkt nach dem Einlesen. Es sind MagixWords in der Datei möglich. 
 - **COPY FILE:** Kopiere eine ausgewählte Datei (z.B. zip) über ein Speichern-Dialog in einen Ordner. 
-- **COPY & PAST:** Liest den Inhalt einer Text-Datei aus und legt ihn in die Zwischenablage. (Mit `STRG+C` kann der Inhalt ausgegeben werden.)
 - **SCRIPT:** Ein über den Pfad zu einem AU3-Script wird direkt ausgeführt.
 - **WINDOWS:** Startet Windows eigene CPL-Programme. (z.B.: Programme löschen mit Appwiz.cpl)
 - **ZIP:** Nutzt den festgelegenten Order um daraus eine zip-Datei mit Datum und Uhrzeit anzufertigen. Durch die Eingabe des Pfad, wird der Ablageplatz definiert. Der festgelegte Ordner kann im Menü unter: `Umgebung > Zip-Ordner öffnen` direkt aufgerufen werden.
